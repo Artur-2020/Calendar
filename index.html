@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Calandar</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="icon" href="https://www.pinclipart.com/picdir/middle/6-62628_calendar-icon-png-clipart-computer-icons-clip-art.png">
+</head>
+<body>
+	<input type="number" id="tari" placeholder="Enter Year">
+	<select name="" id="amis">
+		<option value="0,January">January</option>
+		<option value="1,February">February</option>
+		<option value="2,March">March</option>
+		<option value="3,April">April</option>
+		<option value="4,May">May</option>
+		<option value="5,Jun">Jun</option>
+		<option value="6,Jul">Jul</option>
+		<option value="7,August">August</option>
+		<option value="8,September">Setpember</option>
+		<option value="9,October">October</option>
+		<option value="10,November">November</option>
+		<option value="11,December">December</option>
+	</select>
+	<button onclick="f()" class="setBtn">Set</button>
+<div class="month">
+  <ul>
+    <li class="prev" onclick="prev()">&#10094;</li>
+    <li class="next" onclick="next()">&#10095;</li>
+    <li><span id="calmonth"><!-- aystex amisn e grvats --></span><br><span style="font-size:18px" id="calyear"><!-- aystex tarin --></span></li>
+  </ul>
+</div>
+
+<ul class="weekdays">
+  <li>Mo</li>
+  <li>Tu</li>
+  <li>We</li>
+  <li>Th</li>
+  <li>Fr</li>
+  <li>Sa</li>
+  <li>Su</li>
+</ul>
+
+<ul class="days">
+
+  	
+</ul>
+	
+</body>
+	<script src="script1.js"></script>
+</html>
